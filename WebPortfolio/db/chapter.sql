@@ -1,0 +1,6 @@
+CREATE TABLE chapter( //목차
+  num int NOT NULL AUTO_INCREMENT,
+  title CHARACTER(80) NOT NULL,
+  subtitle CHARACTER(100) NOT NULL,
+  PRIMARY KEY(num)
+);
